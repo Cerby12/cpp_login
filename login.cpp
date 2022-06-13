@@ -19,7 +19,6 @@ void login() {
 	for (std::string a : accept_username) {
 		if (a == insert_username) {
 			present = true;
-
 		}
 	}
 	if (present) {
@@ -34,7 +33,6 @@ void login() {
 	for (std::string b : accept_password) {
 		if (b == insert_password) {
 			present = true;
-
 		}
 	}
 	if (present) {
